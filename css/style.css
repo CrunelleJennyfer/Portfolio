@@ -1,0 +1,143 @@
+
+*, html{
+    margin     : 0;
+    padding    : 0;
+    width      : 100%;
+}
+
+body{
+    font-family     : 'Montserrat', sans-serif;
+    background-image: url("../image/background.png");
+    background-size : cover;
+    display         : table;
+    width           : 100%;
+}
+html, body{
+    height: 100%;
+}
+
+.header-area{
+    background-color: white;
+    text-align      : center;
+}
+
+.menu{
+    display        : flex;
+    justify-content: space-around;
+}
+.menu a{
+    margin-top     : 2rem;
+    margin-bottom  : 2rem;
+    text-decoration: none;
+    color          : #7a7b7b;
+    font-size      : 1.5rem;
+    font-weight    : 500;
+}
+
+.moi{
+    display         : block;
+    color           : #c6c6c7;
+    font-size       : 3rem;
+    text-transform  : uppercase;
+}
+.moi>span{
+    display        : flex;
+    justify-content: space-between;
+    text-align     : center;
+}
+#photo p{
+    margin-top: 17%;
+}
+#port p{
+    margin-top: 5%;
+}
+.moi>span img{
+    margin-top: 8%;
+    width                : 15%;
+    border-radius        : 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius   : 100%;
+    -ms-border-radius    : 100%;
+    -o-border-radius     : 100%;
+}
+
+.info, .projet, .contact{
+    color          : #c6c6c7;
+    font-size      : 2rem;
+    text-transform : uppercase;
+    display        : flex;
+    justify-content: space-between;
+}
+.info a, .projet a {
+    text-align     : right;
+    display        : block;
+    text-decoration: none;
+    color          : #c6c6c7;
+}
+.info>span, .projet>span{
+    display: block;
+}
+#desc, #web, #num{
+    text-align : left;
+    margin-top : 10%;
+    margin-left: 10%;
+}
+#lien, #audiovisu, #mail{
+    margin-right : 10%;
+    margin-top   : 29%;
+    margin-bottom: 2%;
+}
+
+footer{
+    background-color: white;
+    display         : table-row;
+    height          : 50px;
+}
+.RS{
+    margin-top     : 0.5rem;
+    display        : flex;
+    justify-content: space-around;
+    text-align     : center;
+}
+
+#trait{
+    height:0px;
+    width:5px;
+    border-bottom:1px solid #000;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+}
+
+@keyframes increase {
+    100% {
+        width: 300px;
+    }
+}
+
+.projetdev, .projetvisu{
+    margin-top: 5rem;
+    margin-left: 20rem;
+    text-decoration: none;
+    display        : flex;
+    color          : #c6c6c7;
+}
+.projetdev ul, .projetvisu ul{
+    list-style: none;
+}
+.projetdev ul#ttA, .projetvisu ul#ttA{
+    margin-left: -15rem;
+}
+.projetdev ul li#tt, .projetvisu ul li#tt{
+    margin-left: -1.5rem;
+    font-size      : 2rem;
+    text-transform : uppercase;
+}
+
+.RS a{
+    text-decoration: none;
+    color: black;
+}
