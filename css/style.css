@@ -66,8 +66,8 @@ html, body{
     justify-content: center;
     display: inline-block;
 }
-object{
-    margin-left: 3rem;
+object#CV_LM{
+    margin-left: 2.5rem;
     width: 45%;
 }
 .projet, .contact{
@@ -128,24 +128,20 @@ footer{
 }
 
 .projetdev, .projetvisu{
-    margin-top: 5rem;
-    margin-left: 20rem;
+    margin-top: 1rem;
     text-decoration: none;
     display        : flex;
     color          : #c6c6c7;
 }
+
 .projetdev ul, .projetvisu ul{
     list-style: none;
 }
-.projetdev ul#ttA, .projetvisu ul#ttA{
-    margin-left: -15rem;
-}
 .projetdev ul li#tt, .projetvisu ul li#tt{
-    margin-left: -1.5rem;
     font-size      : 2rem;
+    text-align: center;
     text-transform : uppercase;
 }
-
 .RS a{
     text-decoration: none;
     color: black;
