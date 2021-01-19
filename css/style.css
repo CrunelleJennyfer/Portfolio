@@ -70,6 +70,17 @@ object#CV_LM{
     margin-left: 2.5rem;
     width: 45%;
 }
+object#visu{
+    width: 100%;
+    height: 30rem;
+}
+object#visuIm{
+    width: 100%;
+    height: 30.5rem;
+}
+img#Il{
+    width: 65%;
+}
 .projet, .contact{
     color          : #c6c6c7;
     font-size      : 2rem;
@@ -86,10 +97,18 @@ object#CV_LM{
 .projet>span{
     display: block;
 }
-#desc, #web, #num{
+#desc, #num{
     text-align : left;
     margin-top : 10%;
     margin-left: 10%;
+}
+#web{
+    text-align : left;
+    margin-top : 10%;
+    margin-left: 10%;
+}
+#web:hover, #audiovisu:hover{
+    text-decoration: underline;
 }
 #audiovisu, #mail{
     margin-right : 10%;
@@ -136,9 +155,10 @@ footer{
 
 .projetdev ul, .projetvisu ul{
     list-style: none;
+    text-align: center;
 }
 .projetdev ul li#tt, .projetvisu ul li#tt{
-    font-size      : 2rem;
+    font-size      : 1.8rem;
     text-align: center;
     text-transform : uppercase;
 }
